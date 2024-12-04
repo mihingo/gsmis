@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "studio": "npx prisma studio",
+    "seed": "npx prisma db seed"
   },
   "dependencies": {
     "@clerk/elements": "^0.14.6",
